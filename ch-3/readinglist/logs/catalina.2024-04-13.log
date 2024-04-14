@@ -1,0 +1,220 @@
+13-Apr-2024 13:32:43.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.84
+13-Apr-2024 13:32:43.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2023 19:27:40 UTC
+13-Apr-2024 13:32:43.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.84.0
+13-Apr-2024 13:32:43.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+13-Apr-2024 13:32:43.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Apr-2024 13:32:43.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Apr-2024 13:32:43.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\ranus\.jdks\corretto-17.0.10
+13-Apr-2024 13:32:43.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+13-Apr-2024 13:32:43.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Apr-2024 13:32:43.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\projects\readinglist
+13-Apr-2024 13:32:43.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-9.0.84
+13-Apr-2024 13:32:43.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Apr-2024 13:32:43.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Apr-2024 13:32:43.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Apr-2024 13:32:43.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Apr-2024 13:32:43.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Apr-2024 13:32:43.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-9.0.84
+13-Apr-2024 13:32:43.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\projects\readinglist
+13-Apr-2024 13:32:43.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\projects\readinglist\temp
+13-Apr-2024 13:32:43.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\projects\readinglist\conf\logging.properties
+13-Apr-2024 13:32:43.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Apr-2024 13:32:43.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=58430:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+13-Apr-2024 13:32:43.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Apr-2024 13:32:43.431 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Apr-2024 13:32:43.432 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Apr-2024 13:32:43.432 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Apr-2024 13:32:43.466 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Apr-2024 13:32:44.270 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:32:44.312 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1532] milliseconds
+13-Apr-2024 13:32:44.446 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Apr-2024 13:32:44.446 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.84]
+13-Apr-2024 13:32:44.465 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\projects\readinglist\conf\Catalina\localhost\ROOT.xml]
+13-Apr-2024 13:32:45.492 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+13-Apr-2024 13:32:45.525 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+13-Apr-2024 13:32:45.556 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+13-Apr-2024 13:32:53.125 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Apr-2024 13:32:53.415 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [215] milliseconds.
+13-Apr-2024 13:32:53.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\projects\readinglist\conf\Catalina\localhost\ROOT.xml] has finished in [8,998] ms
+13-Apr-2024 13:32:53.469 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:32:53.666 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9354] milliseconds
+13-Apr-2024 13:34:53.312 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:34:53.329 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Apr-2024 13:34:53.502 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:34:53.525 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:41:49.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.84
+13-Apr-2024 13:41:49.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2023 19:27:40 UTC
+13-Apr-2024 13:41:49.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.84.0
+13-Apr-2024 13:41:49.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+13-Apr-2024 13:41:49.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Apr-2024 13:41:49.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Apr-2024 13:41:49.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\ranus\.jdks\corretto-17.0.10
+13-Apr-2024 13:41:49.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+13-Apr-2024 13:41:49.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Apr-2024 13:41:49.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\projects\readinglist
+13-Apr-2024 13:41:49.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-9.0.84
+13-Apr-2024 13:41:49.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Apr-2024 13:41:49.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Apr-2024 13:41:49.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Apr-2024 13:41:49.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Apr-2024 13:41:49.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Apr-2024 13:41:49.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-9.0.84
+13-Apr-2024 13:41:49.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\projects\readinglist
+13-Apr-2024 13:41:49.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\projects\readinglist\temp
+13-Apr-2024 13:41:49.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\projects\readinglist\conf\logging.properties
+13-Apr-2024 13:41:49.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Apr-2024 13:41:49.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=58802:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+13-Apr-2024 13:41:49.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Apr-2024 13:41:49.130 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Apr-2024 13:41:49.130 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Apr-2024 13:41:49.131 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Apr-2024 13:41:49.166 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Apr-2024 13:41:49.717 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:41:49.750 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1079] milliseconds
+13-Apr-2024 13:41:49.831 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Apr-2024 13:41:49.831 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.84]
+13-Apr-2024 13:41:49.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\projects\readinglist\conf\Catalina\localhost\ROOT.xml]
+13-Apr-2024 13:41:50.767 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+13-Apr-2024 13:41:50.802 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+13-Apr-2024 13:41:50.828 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+13-Apr-2024 13:41:57.874 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Apr-2024 13:41:58.268 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [331] milliseconds.
+13-Apr-2024 13:41:58.349 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\projects\readinglist\conf\Catalina\localhost\ROOT.xml] has finished in [8,500] ms
+13-Apr-2024 13:41:58.358 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:41:58.689 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8937] milliseconds
+13-Apr-2024 13:42:38.053 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:42:38.069 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Apr-2024 13:42:38.100 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:42:38.115 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:42:41.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.84
+13-Apr-2024 13:42:41.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2023 19:27:40 UTC
+13-Apr-2024 13:42:41.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.84.0
+13-Apr-2024 13:42:41.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+13-Apr-2024 13:42:41.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Apr-2024 13:42:41.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Apr-2024 13:42:41.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\ranus\.jdks\corretto-17.0.10
+13-Apr-2024 13:42:41.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+13-Apr-2024 13:42:41.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Apr-2024 13:42:41.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\projects\readinglist
+13-Apr-2024 13:42:41.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-9.0.84
+13-Apr-2024 13:42:41.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Apr-2024 13:42:41.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Apr-2024 13:42:41.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Apr-2024 13:42:41.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Apr-2024 13:42:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Apr-2024 13:42:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-9.0.84
+13-Apr-2024 13:42:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\projects\readinglist
+13-Apr-2024 13:42:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\projects\readinglist\temp
+13-Apr-2024 13:42:41.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\projects\readinglist\conf\logging.properties
+13-Apr-2024 13:42:41.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Apr-2024 13:42:41.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=58837:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+13-Apr-2024 13:42:41.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Apr-2024 13:42:41.500 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Apr-2024 13:42:41.500 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Apr-2024 13:42:41.500 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Apr-2024 13:42:41.510 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Apr-2024 13:42:42.181 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:42:42.211 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1149] milliseconds
+13-Apr-2024 13:42:42.340 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Apr-2024 13:42:42.341 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.84]
+13-Apr-2024 13:42:42.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\projects\readinglist\conf\Catalina\localhost\ROOT.xml]
+13-Apr-2024 13:42:43.165 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+13-Apr-2024 13:42:43.202 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+13-Apr-2024 13:42:43.225 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+13-Apr-2024 13:42:48.655 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Apr-2024 13:42:48.832 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [131] milliseconds.
+13-Apr-2024 13:42:48.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\projects\readinglist\conf\Catalina\localhost\ROOT.xml] has finished in [6,508] ms
+13-Apr-2024 13:42:48.867 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:42:48.999 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6788] milliseconds
+13-Apr-2024 13:43:01.919 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:43:01.947 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Apr-2024 13:43:02.041 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:43:02.051 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:43:03.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.84
+13-Apr-2024 13:43:03.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2023 19:27:40 UTC
+13-Apr-2024 13:43:03.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.84.0
+13-Apr-2024 13:43:03.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+13-Apr-2024 13:43:03.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Apr-2024 13:43:03.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Apr-2024 13:43:03.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\ranus\.jdks\corretto-17.0.10
+13-Apr-2024 13:43:03.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+13-Apr-2024 13:43:03.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Apr-2024 13:43:03.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\projects\readinglist
+13-Apr-2024 13:43:03.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-9.0.84
+13-Apr-2024 13:43:03.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Apr-2024 13:43:03.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Apr-2024 13:43:03.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Apr-2024 13:43:03.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Apr-2024 13:43:03.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Apr-2024 13:43:03.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-9.0.84
+13-Apr-2024 13:43:03.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\projects\readinglist
+13-Apr-2024 13:43:03.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\projects\readinglist\temp
+13-Apr-2024 13:43:03.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\projects\readinglist\conf\logging.properties
+13-Apr-2024 13:43:03.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Apr-2024 13:43:03.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=58844:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+13-Apr-2024 13:43:03.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Apr-2024 13:43:03.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Apr-2024 13:43:03.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Apr-2024 13:43:03.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Apr-2024 13:43:03.908 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Apr-2024 13:43:04.440 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:43:04.470 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [976] milliseconds
+13-Apr-2024 13:43:04.537 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Apr-2024 13:43:04.538 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.84]
+13-Apr-2024 13:43:04.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\projects\readinglist\conf\Catalina\localhost\readinglist.xml]
+13-Apr-2024 13:43:05.194 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+13-Apr-2024 13:43:05.223 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+13-Apr-2024 13:43:05.244 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+13-Apr-2024 13:43:11.272 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Apr-2024 13:43:11.427 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [110] milliseconds.
+13-Apr-2024 13:43:11.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\projects\readinglist\conf\Catalina\localhost\readinglist.xml] has finished in [6,898] ms
+13-Apr-2024 13:43:11.453 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:43:11.595 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7124] milliseconds
+13-Apr-2024 13:48:55.748 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:48:55.765 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Apr-2024 13:48:55.811 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:48:55.824 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:52:51.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.84
+13-Apr-2024 13:52:51.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2023 19:27:40 UTC
+13-Apr-2024 13:52:51.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.84.0
+13-Apr-2024 13:52:51.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+13-Apr-2024 13:52:51.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Apr-2024 13:52:51.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Apr-2024 13:52:51.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\ranus\.jdks\corretto-17.0.10
+13-Apr-2024 13:52:51.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+13-Apr-2024 13:52:51.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+13-Apr-2024 13:52:51.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\projects\readinglist
+13-Apr-2024 13:52:51.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-9.0.84
+13-Apr-2024 13:52:51.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Apr-2024 13:52:51.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Apr-2024 13:52:51.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Apr-2024 13:52:51.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Apr-2024 13:52:51.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Apr-2024 13:52:51.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\apache-tomcat-9.0.84
+13-Apr-2024 13:52:51.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\projects\readinglist
+13-Apr-2024 13:52:51.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\projects\readinglist\temp
+13-Apr-2024 13:52:51.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\projects\readinglist\conf\logging.properties
+13-Apr-2024 13:52:51.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Apr-2024 13:52:51.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=59015:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin
+13-Apr-2024 13:52:51.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+13-Apr-2024 13:52:51.614 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+13-Apr-2024 13:52:51.614 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13-Apr-2024 13:52:51.614 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Apr-2024 13:52:51.625 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+13-Apr-2024 13:52:52.214 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:52:52.256 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1048] milliseconds
+13-Apr-2024 13:52:52.328 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Apr-2024 13:52:52.328 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.84]
+13-Apr-2024 13:52:52.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\projects\readinglist\conf\Catalina\localhost\readinglist.xml]
+13-Apr-2024 13:52:53.378 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+13-Apr-2024 13:52:53.415 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+13-Apr-2024 13:52:53.436 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+13-Apr-2024 13:52:59.260 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Apr-2024 13:52:59.443 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [142] milliseconds.
+13-Apr-2024 13:52:59.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\projects\readinglist\conf\Catalina\localhost\readinglist.xml] has finished in [7,150] ms
+13-Apr-2024 13:52:59.503 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:52:59.646 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7388] milliseconds
+13-Apr-2024 13:59:31.585 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:59:31.605 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Apr-2024 13:59:31.776 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Apr-2024 13:59:31.801 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
